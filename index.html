@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section>
+        <p>Написать функцию, которая принимает 2 числа и возвращает -1, 
+            если первое меньше, чем второе; 1 – если первое больше, чем второе; и 0 – если числа равны.</p>
+            <hr>
+            <input type="number" id="firstNumber" placeholder="введите первое число">
+            <input type="number" id="secondNumber" placeholder="введите второе число">
+            <button onclick="compareTwoNumbers()">Сравнить</button>
+            <p id="ansver"></p>
+    </section>
+    
+    <section>
+        <p>Написать функцию, которая вычисляет факториал переданного ей числа.</p>
+        <hr>
+        <input type="number" id="factorialNumber" placeholder="введите число">
+        <button onclick="factorialOnoNumber()">Давай посчитаем</button>
+        <p id="ansverFactorial"></p>
+    </section>
+
+    <section>
+        <p>Написать функцию, которая принимает три отдельные цифры и превращает их в одно число. 
+            Например: цифры 1, 4, 9 превратятся в число 149.</p>
+            <hr>
+            <input type="number" id="one" placeholder="введите первое число">
+            <input type="number" id="two" placeholder="введите второе число">
+            <input type="number" id="three" placeholder="введите третье число">
+            <button onclick="stringSumm()">Давай посчитаем</button>
+            <p id="ansverString"></p>
+    </section>
+
+    <section>
+        <p>Написать функцию, которая принимает длину и ширину прямоугольника 
+            и вычисляет его площадь. Если в функцию передали 1 параметр, то она вычисляет площадь квадрата.</p>
+            <hr>
+            <input type="number" id="length" placeholder="введите длину">
+            <input type="number" id="width" placeholder="введите ширину">
+            <button onclick="considerTheArea()">Давай посчитаем</button>
+            <p id="areaAnsver"></p>
+    </section>
+
+    <section>
+        <p>
+            Написать функцию, которая проверяет, является ли переданное ей число совершенным. 
+            Совершенное число – это число, равное сумме всех своих собственных делителей.
+        </p>
+        <hr>
+        <input type="number" id="perfoctNumber" placeholder="введите число">
+        <button onclick="checkForPerfect()">Давай проверять вместе</button>
+        <p id="perfectAnsver"></p>
+
+
+    </section>
+
+    <section>
+        <p>
+            Написать функцию, которая принимает минимальное и максимальное значения для диапазона, и выводит только те числа из диапазона, 
+            которые являются совершенными. Используйте написанную ранее функцию, чтобы узнавать, совершенное число или нет.  
+        </p>
+        <hr>
+        <input type="number" id="minNumber" placeholder="введите минимальное значения">
+        <input type="number" id="maxNumber" placeholder="введите максимальное значения">
+        <button onclick="checkAllPerfect()">Давай попробуем найти</button>
+        <p id="allPerfectAnsver"></p>
+    </section>
+</body>
+</html>
